@@ -1,0 +1,133 @@
+img {
+    border-radius: 0px;
+    padding: 5px;
+    width: 250px;
+    height: 150px;
+  } 
+  
+  /* the heading of the table setting */
+  th {
+    font-size: 2em;
+    padding: 20px;
+  }
+  
+  /* the whole body settings */
+  body {
+    font-family: sans-serif;
+    font-size: 1em;
+    text-align: center;
+    background-color:rgb(150, 154, 158); 
+  }
+  
+  /* table settings */
+  table {
+    /* background-color: white; */
+    width: 60%;
+    margin: auto;
+  }
+  
+  /* space between the td and the images */
+  td {
+    padding: 25px;
+  }
+
+
+  /* background styling for the navigation bar  */
+
+  .main_hearder {
+    background-image: url("/images/image3.webp");
+    background-size: cover;
+    padding-bottom: 30px;
+  }
+
+/* the styling of navigation bar margins  */
+  .nav.ul {
+    margin: 0px;
+  }
+  
+  /* the styling of the tabs alignment in navigation bar  */
+  .nav li {
+    display: inline;
+  }
+  
+  /* the navigation bar activness */
+  .nav a {
+    display: inline-block;
+    padding: .5em;
+    color:white ;
+    text-decoration: none;
+  
+  }
+  
+   /* the hovering color on the navigation bar  */
+  .nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+  }
+  
+  /* main navigation bar styling */
+  .main_nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+  }
+  
+  .main_nav li {
+    padding:0% 5% ;
+  
+  }
+  
+   /* the main heading styling */
+  .name {
+    text-align: center;
+    margin: 0%;
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+  }
+  
+  /* the enlargement main heading styling */
+  .name-large {
+    font-size: 2em;
+  }
+
+  /* the footer styling  */
+  .main-footer {
+    background: linear-gradient(to right, rgb(32, 32, 85), rgb(109, 92, 92), rgb(17, 95, 95));
+    padding: .25em 0;
+    text-align: center; 
+  }
+  
+  /* contact icon styling */
+  .contact-icon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* email icon styling */
+  .email-icon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* facebook icon styling */
+  .facebook-icon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* the main footer aligning */
+  .main-footer-container {
+    padding: .5em;
+    display: flex;
+    
+  }
+  
+/* the container of the footer paragraph */
+  .main-footer-container p {
+    flex-grow: 3;
+    text-align: center;
+   
+  
+  }
